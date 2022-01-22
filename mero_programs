@@ -1,0 +1,35 @@
+#include <stdio.h>
+int main(){
+    int n, a[50],x,y,large,small;
+    printf("Enter the numbers that are contained in a array:\n");
+    scanf("%d",&n);
+    printf("Enter the arrays:\n");
+    for(int i=0;i<n;i++){
+        scanf("%d", &a[i]);
+
+    }
+
+    for (int x=0;x<n;x++){
+         large= a[0];
+        for (int y=0; y<n;y++){
+            if (a[x]>large)
+            large=a[x];
+        }
+    }
+    printf("The maximum value is:%d\n", large);
+
+ for (int x=0;x<n;x++){
+         small= a[0];
+        for (int y=0; y<n;y++){
+            if (a[x]<small)
+            small=a[x];
+        }
+    }
+    printf("The minimum value is:%d\n", small);
+
+    return 0;
+
+
+
+
+}
