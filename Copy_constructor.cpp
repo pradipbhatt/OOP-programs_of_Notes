@@ -24,7 +24,7 @@ int main()
 {
     system("cls");
     student s1(200);             //s1 object le parameterized constructor student lae call garyoo and 200 pass garyoo...
-    student s2(s1);              //s2=s1 copy constructor student is called here and s2 is
+    student s2(s1);              //s2=s1 copy constructor student is called here and s2 is copied to s1.
     student s3(s2);
     student s4(s1);
     cout<<"Id of student s1="<<s1.display()<<endl;
