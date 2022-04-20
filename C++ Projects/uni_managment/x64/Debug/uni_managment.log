@@ -1,0 +1,9 @@
+﻿  projectt.cpp
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(632): warning C4101: 'm': unreferenced local variable
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(1345): warning C4101: 'x3': unreferenced local variable
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(1508): warning C4101: 's': unreferenced local variable
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(344): warning C4715: 'TryPass::trypass': not all control paths return a value
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(964): warning C4717: 'Admin::linked_list::append': recursive on all control paths, function will cause runtime stack overflow
+c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(469): warning C4717: 'Teacher_functionality::linked_list::appendeet': recursive on all control paths, function will cause runtime stack overflow
+  uni_managment.vcxproj -> C:\Users\hamza\Documents\Visual Studio 2017\Projects\uni_managment\x64\Debug\uni_managment.exe
+  uni_managment.vcxproj -> C:\Users\hamza\Documents\Visual Studio 2017\Projects\uni_managment\x64\Debug\uni_managment.pdb (Partial PDB)
