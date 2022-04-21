@@ -1,3 +1,4 @@
+//first program of OOP Polymorphism
 #include<iostream>
 using namespace std;
 class base
@@ -31,4 +32,5 @@ int main()
     dptr->n=20;
     dptr->display();
     dptr->base::display();
+    return 0;
 }
