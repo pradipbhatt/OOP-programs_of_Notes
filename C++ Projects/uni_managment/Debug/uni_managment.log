@@ -1,4 +1,0 @@
-﻿  projectt.cpp
-c:\users\hamza\documents\visual studio 2017\projects\uni_managment\uni_managment\projectt.cpp(163): warning C4715: 'TryPass::trypass': not all control paths return a value
-  uni_managment.vcxproj -> C:\Users\hamza\Documents\Visual Studio 2017\Projects\uni_managment\Debug\uni_managment.exe
-  uni_managment.vcxproj -> C:\Users\hamza\Documents\Visual Studio 2017\Projects\uni_managment\Debug\uni_managment.pdb (Partial PDB)

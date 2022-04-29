@@ -1,2 +1,0 @@
-33,1234-pradip,BCE,0
-1,pradip-Python,OOP,C,html,css,js!7,$$$$$$$
