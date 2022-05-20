@@ -1,0 +1,1 @@
+int student::count;
