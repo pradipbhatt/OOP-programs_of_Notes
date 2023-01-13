@@ -1,0 +1,102 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "explorer.confirmDelete": false,
+    "code-runner.clearPreviousOutput": true,
+    "[html]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    // These two codes are for font style
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'fira code'",
+    // "editor.fontFamily":"'Fira code'",
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.exe": "default"
+    },
+    "liveServer.settings.donotVerifyTags": true,
+    "vscode-edge-devtools.mirrorEdits": true,
+    "vscode-edge-devtools.webhint": false,
+    "editor.mouseWheelZoom": true,
+    "liveshare.audio.startCallOnShare": true,
+    "json.schemas": [
+    
+    
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "window.title": "${dirty}${activeEditorShort}${separator}${${folderPath}}${separator}${appName}",
+    "editor.rulers": [
+        120
+    ],
+    "editor.minimap.enabled": false,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "auto-close-tag.excludedTags": [
+        "area",
+        "base",
+        "br",
+        "col",
+        "command",
+        "embed",
+        "hr",
+        "img",
+        "input",
+        "keygen",
+        "link",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.advanced.messages": {
+        "suppressGitDisabledWarning": true,
+        "suppressGitMissingWarning": true
+    },
+    "php.validate.executablePath": "true",
+    "diffEditor.renderSideBySide": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.inlayHints.fontSize": 10,
+    "discord-chat.token": "1234",
+    "window.zoomLevel": -1,
+    "editor.inlineSuggest.enabled": true
+}
