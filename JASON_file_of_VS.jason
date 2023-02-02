@@ -1,149 +1,105 @@
 {
-    "C_Cpp.updateChannel": "Insiders",
-    "terminal.integrated.tabs.enabled": true,
-    "terminal.integrated.defaultProfile.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)",
-    "debug.terminal.clearBeforeReusing": true,
     "code-runner.runInTerminal": true,
     "code-runner.saveFileBeforeRun": true,
-    "code-runner.executorMapByFileExtension": {
-
-
-
-
-
-        "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\"&& \"$dir$fileNameWithoutExt.exe\"",
-        ".vb": "cd $dir && vbc /nologo $fileName && $dir$fileNameWithoutExt",
-        ".vbs": "cscript //Nologo",
-        ".scala": "scala",
-        ".jl": "julia",
-        ".cr": "crystal",
-        ".ml": "ocaml",
-        ".exs": "elixir",
-        ".hx": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-        ".rkt": "racket",
-        ".scm": "csi -script",
-        ".ahk": "autohotkey",
-        ".au3": "autoit3",
-        ".kt": "cd $dir && kotlinc $fileName -include-runtime -d $fileNameWithoutExt.jar && java -jar $fileNameWithoutExt.jar",
-        ".kts": "kotlinc -script",
-        ".dart": "dart",
-        ".pas": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        ".pp": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        ".d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-        ".hs": "runhaskell",
-        ".nim": "nim compile --verbosity:0 --hints:off --run",
-        ".csproj": "dotnet run --project",
-        ".fsproj": "dotnet run --project",
-        ".lisp": "sbcl --script",
-        ".kit": "kitc --run",
-        ".v": "v run",
-        ".vsh": "v run",
-        ".sass": "sass --style expanded",
-        ".cu": "cd $dir && nvcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    },
-    "code-runner.executorMap": {
-        
-    
-
-
-        "html":" cd $dir && start chrome && $dir $filename",
-        "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc \"$fileName\" -o \"$fileNameWithoutExt.exe\" && $dir$fileNameWithoutExt.exe",
-       "cpp": "cd $dir && g++ \"$fileName\" -o \"$fileNameWithoutExt.exe\" &&  $dir$fileNameWithoutExt.exe",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "php": "php",
-        "python": "python -u",
-        "perl": "perl",
-        "perl6": "perl6",
-        "ruby": "ruby",
-        "go": "go run",
-        "lua": "lua",
-        "groovy": "groovy",
-        "powershell": "powershell -ExecutionPolicy ByPass -File",
-        "bat": "cmd /c",
-        "shellscript": "bash",
-        "fsharp": "fsi",
-        "csharp": "scriptcs",
-        "vbscript": "cscript //Nologo",
-        "typescript": "ts-node",
-        "coffeescript": "coffee",
-        "scala": "scala",
-        "swift": "swift",
-        "julia": "julia",
-        "crystal": "crystal",
-        "ocaml": "ocaml",
-        "r": "Rscript",
-        "applescript": "osascript",
-        "clojure": "lein exec",
-        "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
-        "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
-        "racket": "racket",
-        "scheme": "csi -script",
-        "ahk": "autohotkey",
-        "autoit": "autoit3",
-        "dart": "dart",
-        "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
-        "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
-        "haskell": "runhaskell",
-        "nim": "nim compile --verbosity:0 --hints:off --run",
-        "lisp": "sbcl --script",
-        "kit": "kitc --run",
-        "v": "v run",
-        "sass": "sass --style expanded",
-        "scss": "scss --style expanded",
-        "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
-        "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
-    },
+    "explorer.confirmDelete": false,
     "code-runner.clearPreviousOutput": true,
-    "workbench.iconTheme": "vs-minimal",
-    "files.autoSave": "afterDelay",
-    "window.autoDetectHighContrast": false,
-    "tabnine.experimentalAutoImports": true,
-    "kite.showWelcomeNotificationOnStartup": false,
-    "epitech-c-cpp-headers.username": "",
-    "epitech-c-cpp-headers.login": "",
-    "epitech-c-cpp-headers.headerType": "post2017",
-    "epitech-c-cpp-headers.usePragmaOnce": false,
-    "epitech-c-cpp-headers.autoGenerateClasses": true,
-    "epitech-c-cpp-headers.indentAccessSpecifiers": true,
-    "clangd.detectExtensionConflicts": false,
-    "editor.codeLensFontSize": 2,
-    "cmake.configureOnOpen": true,
-    "clangd.path": "c:\\Users\\DELL\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\12.0.1\\clangd_12.0.1\\bin\\clangd.exe",
-    "terminal.integrated.profiles.windows": {
-        "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe (migrated)": {
-            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-            "args": []
-        }
-    },
-    "editor.fontLigatures": null,
-    "liveshare.audio.startCallOnShare": true,
-    "editor.minimap.enabled": false,
-    "breadcrumbs.enabled": false,
-    "editor.renderWhitespace": "none",
-    "editor.renderControlCharacters": false,
-    "security.workspace.trust.untrustedFiles": "open",
-    "editor.mouseWheelZoom": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.fullReload": true,
-    "liveServer.settings.CustomBrowser": "chrome",
-    "liveServer.settings.useLocalIp": true,
-    "liveServer.settings.useWebExt": true,
-    "liveServer.settings.NoBrowser": true,
-    "liveServer.settings.useBrowserPreview": false,
-    "workbench.colorTheme": "Deep Blue",
     "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    // These two codes are for font style
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'fira code'",
+    // "editor.fontFamily":"'Fira code'",
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.exe": "default"
     },
     "liveServer.settings.donotVerifyTags": true,
-    "editor.unicodeHighlight.invisibleCharacters": false,
-    "editor.unicodeHighlight.allowedCharacters": {
-        " ": true
+    "vscode-edge-devtools.mirrorEdits": true,
+    "vscode-edge-devtools.webhint": false,
+    "editor.mouseWheelZoom": true,
+    "liveshare.audio.startCallOnShare": true,
+    "json.schemas": [
+    
+    
+    
+    ],
+    "explorer.confirmDragAndDrop": false,
+    "tabnine.experimentalAutoImports": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.sideBar.location": "right",
+    "window.title": "${dirty}${activeEditorShort}${separator}${${folderPath}}${separator}${appName}",
+    "editor.rulers": [
+        120
+    ],
+    "editor.minimap.enabled": false,
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "workbench.productIconTheme": "icons-carbon",
-    "window.zoomLevel": -1
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "SimonSiefke.prettier-vscode"
+    },
+    "auto-close-tag.excludedTags": [
+        "area",
+        "base",
+        "br",
+        "col",
+        "command",
+        "embed",
+        "hr",
+        "img",
+        "input",
+        "keygen",
+        "link",
+        "meta",
+        "param",
+        "source",
+        "track",
+        "wbr"
+    ],
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "gitlens.advanced.messages": {
+        "suppressGitDisabledWarning": true,
+        "suppressGitMissingWarning": true
+    },
+    "php.validate.executablePath": "true",
+    "diffEditor.renderSideBySide": false,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.inlayHints.fontSize": 10,
+    "discord-chat.token": "1234",
+    "window.zoomLevel": -1,
+    "editor.inlineSuggest.enabled": true,
+    "editor.accessibilitySupport": "on",
+    "workbench.colorTheme": "Black"
 }
