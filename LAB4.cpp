@@ -10,7 +10,7 @@ class student
  
        int enter()
       {
-        cout<<"Enter the name of student ="<<endl;
+        cout<<"Enter the name of student by user ="<<endl;
         cin>>name;  
         cout<<"Enter the roll no. of student ="<<endl;
         cin>>roll; 
